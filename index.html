@@ -21,6 +21,8 @@
       <button @click="increaseCounter">Add</button>
       <button @click="decreaseCounter">Remove</button>
       <p>Result: {{ counter }}</p>
+      <p>{{ name }}</p>
+      <input type="text" @input="setName" />
     </section>
   </body>
 </html>
